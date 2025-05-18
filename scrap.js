@@ -10,6 +10,7 @@ const scrape = async () => {
   const browser = await chromium.launch({ headless: false }); // abre o navegador
   const page = await browser.newPage();
   await page.goto('https://www.nostracasa.com.br/alugar-imoveis-chapeco-sc?ordem=valor_asc');
+
   let jsonRet = []
   await makePagination(page, jsonRet)
   fs.writeFileSync('saida.json', JSON.stringify(jsonRet, null, 2));
