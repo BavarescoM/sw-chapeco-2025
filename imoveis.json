@@ -1,0 +1,14 @@
+[
+  {
+    "bairro": "Copacabana",
+    "tipo": "Apartamento",
+    "preco": 1200000,
+    "url": "https://exemplo.com/imovel/123"
+  },
+  {
+    "bairro": "Botafogo",
+    "tipo": "Casa",
+    "preco": 2000000,
+    "url": "https://exemplo.com/imovel/456"
+  }
+]
